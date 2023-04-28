@@ -992,6 +992,7 @@ a:focus, a:hover {
   position: relative;
   text-align: center;
   vertical-align: text-bottom;
+  padding-bottom: 32px;
 }
 
 .counters-item span{
@@ -1672,7 +1673,7 @@ a:focus, a:hover {
   }
 } */
 
-@media (max-width: 1280px) {
+@media (max-width: 1720px) {
   .section{
     min-height: 520px;
   }
@@ -1706,6 +1707,12 @@ a:focus, a:hover {
   .navbar-brand, .navbar-brand img{
     width: 80%;
   }
+  .counters-item span{
+    font-size: 1.6rem;
+  }
+  .counters-item p{
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 768px) {
   .imgeffect {
@@ -1719,15 +1726,24 @@ a:focus, a:hover {
   .section {
     padding: 24px 0;
   }
-  .counters-item{
-    padding-bottom: 32px;
+  .counters-item span{
+    font-size: 1.8rem;
   }
   .navbar-brand, .navbar-brand img {
     width: 75%;
-}
+  }
 }
 @media (max-width: 400px) {
+  .navbar-brand, .navbar-brand img {
+    width: 65%;
+  }
   .imgeffect {
     width: 300px !important;
+  }
+  .counters-item span{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1.2rem;
   }
 }
