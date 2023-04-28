@@ -1700,9 +1700,16 @@ a:focus, a:hover {
 
 @media (max-width: 992px) {
   .imgeffect, .imgeffect img, .imgblock1, .imgblock1 img, .imgblock2, .imgblock2 img, .imgblock3, .imgblock3 img{
-    width: 80%;
-    right: inherit;
+    width: 330px;
+    right: inherit; 
+    top: 0;
     /* position: relative; */
+  }
+  h2{
+    font-size: 1.8rem;
+  }
+  p{
+    font-size: 1.2rem;
   }
   .navbar-brand, .navbar-brand img{
     width: 80%;
@@ -1720,6 +1727,18 @@ a:focus, a:hover {
   }
 }
 @media (max-width: 480px) {
+  .imgeffect, .imgeffect img, .imgblock1, .imgblock1 img, .imgblock2, .imgblock2 img, .imgblock3, .imgblock3 img{
+    width: 230px;
+    right: inherit; 
+    top: 20px;
+    /* position: relative; */
+  }
+  .h2{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 0.8rem;
+  }
   .imgeffect {
     width: 350px !important;
   }
