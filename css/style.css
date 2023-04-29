@@ -1704,10 +1704,25 @@ a:focus, a:hover {
 
 @media (max-width: 992px) {
   .imgeffect, .imgeffect img, .imgblock1, .imgblock1 img, .imgblock2, .imgblock2 img, .imgblock3, .imgblock3 img{
-    width: 330px;
+    width: 240px;
     right: inherit; 
-    top: 0;
-    /* position: relative; */
+    top: 8px;
+    left: 12px;
+    position: absolute;
+  }
+  .imgblock2, .imgblock2 img, .imgeffect{
+    top: 15px;
+    left: 0px;
+  }
+  .imgeffect, .imgeffect img{
+    width: 350px;
+    left: -15px;
+    top: -20px;
+  }
+  .leftimg, .leftimg img {
+    width: 350px;
+    left: -28px;
+    top: -15px;
   }
   h2{
     font-size: 1.8rem;
@@ -1727,29 +1742,27 @@ a:focus, a:hover {
 }
 @media (max-width: 768px) {
   .imgeffect {
-    width: 450px;
+    width: 240px;
+  }
+  .imgeffect, .imgeffect img, .imgblock1, .imgblock1 img, .imgblock2, .imgblock2 img, .imgblock3, .imgblock3 img{
+    width: 150px;
+    position: absolute;
+    margin: 0 auto;
+    left: 22px;
+    top: 2px;
+  }
+  .imgblock2, .imgblock2 img, .imgeffect{
+    top: 3px;
+  }
+  .imgeffect, .imgeffect img{
+    width: 240px;
+    left: 0px;
+    top: -20px;
   }
 }
 @media (max-width: 480px) {
-  .imgeffect, .imgeffect img, .imgblock1, .imgblock1 img, .imgblock2, .imgblock2 img, .imgblock3, .imgblock3 img{
-    width: 230px;
-    right: inherit; 
-    top: 20px;
-  }
-  .h2{
-    font-size: 1rem;
-  }
-  p{
-    font-size: 0.8rem;
-  }
-  .imgeffect {
-    width: 350px;
-  }
   .section {
     padding: 24px 0;
-  }
-  .counters-item h2{
-    font-size: 1.8rem;
   }
   .navbar-brand, .navbar-brand img {
     width: 75%;
@@ -1763,6 +1776,7 @@ a:focus, a:hover {
   }
   .imgblock2, .imgblock2 img, .imgeffect{
     top: 120px;
+    left: 60px;
   }
   .imgeffect, .imgeffect img{
     width: 300px;
