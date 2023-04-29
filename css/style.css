@@ -1754,6 +1754,32 @@ a:focus, a:hover {
   .navbar-brand, .navbar-brand img {
     width: 75%;
   }
+  .imgeffect, .imgeffect img, .imgblock1, .imgblock1 img, .imgblock2, .imgblock2 img, .imgblock3, .imgblock3 img{
+    width: 200px;
+    position: absolute;
+    margin: 0 auto;
+    left: 54px;
+    top: 4px;
+  }
+  .imgblock2, .imgblock2 img, .imgeffect{
+    top: 120px;
+  }
+  .imgeffect, .imgeffect img{
+    width: 300px;
+    left: 28px;
+    top: -20px;
+  }
+  .leftimg, .leftimg img {
+    width: 300px;
+    left: 10px;
+    top: 95px;
+  }
+  h2{
+    font-size: 1.4rem;
+  }
+  p{
+    font-size: 1rem;
+  }
   .linkfooter{
     display: none !important;
   }
