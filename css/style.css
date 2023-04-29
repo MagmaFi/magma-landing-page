@@ -1786,4 +1786,7 @@ a:focus, a:hover {
   p{
     font-size: 1rem;
   }
+  .linkfooter{
+    display: none !important;
+  }
 }
