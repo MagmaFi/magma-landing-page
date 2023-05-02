@@ -1636,12 +1636,23 @@ a:focus, a:hover {
   font-size: 1.5rem;
 }
 
+.footer-bottom span.linkfooter{
+  font-size: 1rem;
+  color: #F55454;
+}
+
 .subscribe-form .form-control {
   border-radius: 0;
 }
 
 .footer-bottom a i{
   margin-right: 10px;
+  font-size: 1.3rem;
+  vertical-align: text-bottom;
+}
+
+.align-left{
+  text-align: left;
 }
 
 /*=================================================================
